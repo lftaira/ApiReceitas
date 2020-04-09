@@ -35,9 +35,7 @@ namespace ReceitaDeSucesso.api.Controllers
             var receita = await _context.Receitas.FindAsync(id);
 
             if (receita == null)
-            {
                 return NotFound();
-            }
 
             return receita;
         }
