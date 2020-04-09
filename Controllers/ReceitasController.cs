@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ReceitaDeSucesso.api.Context;
 using ReceitaDeSucesso.api.Models;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace ReceitaDeSucesso.api.Controllers
 {
@@ -29,7 +27,7 @@ namespace ReceitaDeSucesso.api.Controllers
         }
 
         // GET: api/Receitas/5
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         public async Task<ActionResult<Receita>> GetReceita(int id)
         {
             var receita = await _context.Receitas.FindAsync(id);
@@ -41,15 +39,11 @@ namespace ReceitaDeSucesso.api.Controllers
         }
 
         // PUT: api/Receitas/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for
-        // more details see https://aka.ms/RazorPagesCRUD.
-        [HttpPut("{id}")]
+        [HttpPut("{id:int}")]
         public async Task<IActionResult> PutReceita(int id, Receita receita)
         {
             if (id != receita.Id)
-            {
                 return BadRequest();
-            }
 
             _context.Entry(receita).State = EntityState.Modified;
 
@@ -60,21 +54,15 @@ namespace ReceitaDeSucesso.api.Controllers
             catch (DbUpdateConcurrencyException)
             {
                 if (!ReceitaExists(id))
-                {
                     return NotFound();
-                }
                 else
-                {
                     throw;
-                }
             }
 
             return NoContent();
         }
 
         // POST: api/Receitas
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for
-        // more details see https://aka.ms/RazorPagesCRUD.
         [HttpPost]
         public async Task<ActionResult<Receita>> PostReceita(Receita receita)
         {
@@ -85,7 +73,7 @@ namespace ReceitaDeSucesso.api.Controllers
         }
 
         // DELETE: api/Receitas/5
-        [HttpDelete("{id}")]
+        [HttpDelete("{id:int}")]
         public async Task<ActionResult<Receita>> DeleteReceita(int id)
         {
             var receita = await _context.Receitas.FindAsync(id);

@@ -1,10 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -15,7 +10,7 @@ namespace ReceitaDeSucesso.api
 {
     public class Startup
     {
-        public IConfigurationRoot configurationRoot { get; set; }
+        public IConfigurationRoot ConfigurationRoot { get; set; }
 
         public Startup(IHostEnvironment environment)
         {
@@ -23,30 +18,34 @@ namespace ReceitaDeSucesso.api
                 .SetBasePath(environment.ContentRootPath)
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
 
-            configurationRoot = builder.Build();
-
+            ConfigurationRoot = builder.Build();
         }
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
+
         public void ConfigureServices(IServiceCollection services)
         {
-            services.Configure<AppConfig>(configurationRoot.GetSection("Config"));
+            services.Configure<AppConfig>(ConfigurationRoot.GetSection("Config"));
 
             services.AddMvc(options => options.EnableEndpointRouting = false);
-            services.AddDbContext<ReceitaContext>(builder => builder.UseSqlite(configurationRoot.GetConnectionString("ReceitasContextConStringWinSQLite")));
+            services.AddDbContext<ReceitaContext>(builder => builder.UseSqlite(ConfigurationRoot.GetConnectionString("ReceitasContextConStringWinSQLite")));
 
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc(name: "v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "API Receita", Version = "v1" });
+            });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
-            {
                 app.UseDeveloperExceptionPage();
-            }
 
             app.UseMvc();
 
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name: "RECEITA - API V1");
+            });
         }
     }
 }
