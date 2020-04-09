@@ -10,7 +10,7 @@ using ReceitaDeSucesso.api.Models;
 
 namespace ReceitaDeSucesso.api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class ReceitasController : ControllerBase
     {
