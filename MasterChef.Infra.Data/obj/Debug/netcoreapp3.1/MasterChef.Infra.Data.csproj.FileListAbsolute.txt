@@ -22,3 +22,15 @@ C:\Users\anderson.peluso\Desktop\MasterChef\MasterChef.Infra.Data\obj\Debug\netc
 C:\Users\anderson.peluso\Desktop\MasterChef\MasterChef.Infra.Data\obj\Debug\netcoreapp3.1\MasterChef.Infra.Data.csproj.CopyComplete
 C:\Users\anderson.peluso\Desktop\MasterChef\MasterChef.Infra.Data\obj\Debug\netcoreapp3.1\MasterChef.Infra.Data.dll
 C:\Users\anderson.peluso\Desktop\MasterChef\MasterChef.Infra.Data\obj\Debug\netcoreapp3.1\MasterChef.Infra.Data.pdb
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.Data\bin\Debug\netcoreapp3.1\MasterChef.Infra.Data.deps.json
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.Data\bin\Debug\netcoreapp3.1\MasterChef.Infra.Data.dll
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.Data\bin\Debug\netcoreapp3.1\MasterChef.Infra.Data.pdb
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.Data\bin\Debug\netcoreapp3.1\MasterChef.Domain.dll
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.Data\bin\Debug\netcoreapp3.1\MasterChef.Domain.pdb
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.Data\obj\Debug\netcoreapp3.1\MasterChef.Infra.Data.csprojAssemblyReference.cache
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.Data\obj\Debug\netcoreapp3.1\MasterChef.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.Data\obj\Debug\netcoreapp3.1\MasterChef.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.Data\obj\Debug\netcoreapp3.1\MasterChef.Infra.Data.AssemblyInfo.cs
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.Data\obj\Debug\netcoreapp3.1\MasterChef.Infra.Data.csproj.CopyComplete
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.Data\obj\Debug\netcoreapp3.1\MasterChef.Infra.Data.dll
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.Data\obj\Debug\netcoreapp3.1\MasterChef.Infra.Data.pdb

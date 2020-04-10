@@ -240,11 +240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Infra.IoC\\MasterChef.Infra.IoC.csproj",
+      "projectUniqueName": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Infra.IoC\\MasterChef.Infra.IoC.csproj",
       "projectName": "MasterChef.Infra.IoC",
-      "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Infra.IoC\\MasterChef.Infra.IoC.csproj",
+      "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Infra.IoC\\MasterChef.Infra.IoC.csproj",
       "packagesPath": "C:\\Users\\anderson.peluso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Infra.IoC\\obj\\",
+      "outputPath": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Infra.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -264,11 +264,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Domain\\MasterChef.Domain.csproj": {
-              "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Domain\\MasterChef.Domain.csproj"
+            "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Domain\\MasterChef.Domain.csproj": {
+              "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Domain\\MasterChef.Domain.csproj"
             },
-            "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Infra.Data\\MasterChef.Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Infra.Data\\MasterChef.Infra.Data.csproj"
+            "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Infra.Data\\MasterChef.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Infra.Data\\MasterChef.Infra.Data.csproj"
             }
           }
         }

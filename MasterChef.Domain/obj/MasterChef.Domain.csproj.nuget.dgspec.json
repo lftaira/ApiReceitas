@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Domain\\MasterChef.Domain.csproj": {}
+    "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Domain\\MasterChef.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Domain\\MasterChef.Domain.csproj": {
+    "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Domain\\MasterChef.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Domain\\MasterChef.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Domain\\MasterChef.Domain.csproj",
         "projectName": "MasterChef.Domain",
-        "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Domain\\MasterChef.Domain.csproj",
+        "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Domain\\MasterChef.Domain.csproj",
         "packagesPath": "C:\\Users\\anderson.peluso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Domain\\obj\\",
+        "outputPath": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

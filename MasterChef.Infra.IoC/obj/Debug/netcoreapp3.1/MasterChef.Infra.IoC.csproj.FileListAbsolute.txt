@@ -26,3 +26,17 @@ C:\Users\anderson.peluso\Desktop\MasterChef\MasterChef.Infra.IoC\obj\Debug\netco
 C:\Users\anderson.peluso\Desktop\MasterChef\MasterChef.Infra.IoC\obj\Debug\netcoreapp3.1\MasterChef.Infra.IoC.csproj.CopyComplete
 C:\Users\anderson.peluso\Desktop\MasterChef\MasterChef.Infra.IoC\obj\Debug\netcoreapp3.1\MasterChef.Infra.IoC.dll
 C:\Users\anderson.peluso\Desktop\MasterChef\MasterChef.Infra.IoC\obj\Debug\netcoreapp3.1\MasterChef.Infra.IoC.pdb
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.IoC\bin\Debug\netcoreapp3.1\MasterChef.Infra.IoC.deps.json
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.IoC\bin\Debug\netcoreapp3.1\MasterChef.Infra.IoC.dll
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.IoC\bin\Debug\netcoreapp3.1\MasterChef.Infra.IoC.pdb
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.IoC\bin\Debug\netcoreapp3.1\MasterChef.Domain.dll
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.IoC\bin\Debug\netcoreapp3.1\MasterChef.Infra.Data.dll
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.IoC\bin\Debug\netcoreapp3.1\MasterChef.Domain.pdb
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.IoC\bin\Debug\netcoreapp3.1\MasterChef.Infra.Data.pdb
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.IoC\obj\Debug\netcoreapp3.1\MasterChef.Infra.IoC.csprojAssemblyReference.cache
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.IoC\obj\Debug\netcoreapp3.1\MasterChef.Infra.IoC.csproj.CoreCompileInputs.cache
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.IoC\obj\Debug\netcoreapp3.1\MasterChef.Infra.IoC.AssemblyInfoInputs.cache
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.IoC\obj\Debug\netcoreapp3.1\MasterChef.Infra.IoC.AssemblyInfo.cs
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.IoC\obj\Debug\netcoreapp3.1\MasterChef.Infra.IoC.csproj.CopyComplete
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.IoC\obj\Debug\netcoreapp3.1\MasterChef.Infra.IoC.dll
+C:\Users\anderson.peluso\Desktop\GitHub\ApiReceitas\MasterChef.Infra.IoC\obj\Debug\netcoreapp3.1\MasterChef.Infra.IoC.pdb

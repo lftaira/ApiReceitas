@@ -221,11 +221,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Infra.Data\\MasterChef.Infra.Data.csproj",
+      "projectUniqueName": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Infra.Data\\MasterChef.Infra.Data.csproj",
       "projectName": "MasterChef.Infra.Data",
-      "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Infra.Data\\MasterChef.Infra.Data.csproj",
+      "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Infra.Data\\MasterChef.Infra.Data.csproj",
       "packagesPath": "C:\\Users\\anderson.peluso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Infra.Data\\obj\\",
+      "outputPath": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Infra.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -245,8 +245,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Domain\\MasterChef.Domain.csproj": {
-              "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Domain\\MasterChef.Domain.csproj"
+            "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Domain\\MasterChef.Domain.csproj": {
+              "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Domain\\MasterChef.Domain.csproj"
             }
           }
         }

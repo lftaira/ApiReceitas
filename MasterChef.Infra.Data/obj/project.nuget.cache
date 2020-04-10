@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UAwxjX3zLCqVRehMWzkGXJXUmh6LafkMwS3mCLdVfgN2bwe3AI1MhlKVNW0K2NumDHrYOX4/daoV4h9rfJ3Xow==",
+  "dgSpecHash": "Hgn8kcwqMTK5//W5Swh757DRW3Gg1+ZH8ogqJdxICcRsRpAeYrz4qoYDUlYJqsAyk94QnygauAHZJBtcPulIlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Infra.Data\\MasterChef.Infra.Data.csproj",
+  "projectFilePath": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Infra.Data\\MasterChef.Infra.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anderson.peluso\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\anderson.peluso\\.nuget\\packages\\system.data.sqlite\\1.0.112\\system.data.sqlite.1.0.112.nupkg.sha512",

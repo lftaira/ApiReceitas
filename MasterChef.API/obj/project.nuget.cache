@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xD3+LcKI6QeH7hSogLAiMNik/94JvejOAvEMU2e6Eca3O/8ihQjCarJXBIRBcdil4BUGPhn7xqLKCcZuYJHzIA==",
+  "dgSpecHash": "Gmnv8GSasARM0lcmFAC9W1TeiAc9ox1tut6M5vbCnTmScduN8SrtxrrPLzTvJVAk7tRkfyzcAWE50c6XDodeGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.API\\MasterChef.API.csproj",
+  "projectFilePath": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.API\\MasterChef.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anderson.peluso\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\anderson.peluso\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

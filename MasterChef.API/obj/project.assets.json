@@ -6450,11 +6450,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.API\\MasterChef.API.csproj",
+      "projectUniqueName": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.API\\MasterChef.API.csproj",
       "projectName": "MasterChef.API",
-      "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.API\\MasterChef.API.csproj",
+      "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.API\\MasterChef.API.csproj",
       "packagesPath": "C:\\Users\\anderson.peluso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.API\\obj\\",
+      "outputPath": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -6474,11 +6474,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Domain\\MasterChef.Domain.csproj": {
-              "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Domain\\MasterChef.Domain.csproj"
+            "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Domain\\MasterChef.Domain.csproj": {
+              "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Domain\\MasterChef.Domain.csproj"
             },
-            "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Services\\MasterChef.Services.csproj": {
-              "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\MasterChef\\MasterChef.Services\\MasterChef.Services.csproj"
+            "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Services\\MasterChef.Services.csproj": {
+              "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\GitHub\\ApiReceitas\\MasterChef.Services\\MasterChef.Services.csproj"
             }
           }
         }
