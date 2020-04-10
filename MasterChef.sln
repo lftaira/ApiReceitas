@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterChef.Domain", "MasterChef.Domain\MasterChef.Domain.csproj", "{4685AB18-E8E2-4925-B56B-BAA273647DD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterChef.Infra.Data", "MasterChef.Infra.Data\MasterChef.Infra.Data.csproj", "{1C799371-A201-4986-9A2B-964C71841319}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterChef.Infra.IoC", "MasterChef.Infra.IoC\MasterChef.Infra.IoC.csproj", "{9D0FD641-87D4-43A5-9991-A95633DE506C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterChef.Services", "MasterChef.Services\MasterChef.Services.csproj", "{383BA253-D87B-4BD4-B76C-F5A7077591AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterChef.API", "MasterChef.API\MasterChef.API.csproj", "{C82629C7-228C-476C-BB17-3981B909C4A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4685AB18-E8E2-4925-B56B-BAA273647DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4685AB18-E8E2-4925-B56B-BAA273647DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4685AB18-E8E2-4925-B56B-BAA273647DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4685AB18-E8E2-4925-B56B-BAA273647DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C799371-A201-4986-9A2B-964C71841319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C799371-A201-4986-9A2B-964C71841319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C799371-A201-4986-9A2B-964C71841319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C799371-A201-4986-9A2B-964C71841319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0FD641-87D4-43A5-9991-A95633DE506C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0FD641-87D4-43A5-9991-A95633DE506C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0FD641-87D4-43A5-9991-A95633DE506C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0FD641-87D4-43A5-9991-A95633DE506C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383BA253-D87B-4BD4-B76C-F5A7077591AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383BA253-D87B-4BD4-B76C-F5A7077591AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383BA253-D87B-4BD4-B76C-F5A7077591AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383BA253-D87B-4BD4-B76C-F5A7077591AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C82629C7-228C-476C-BB17-3981B909C4A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82629C7-228C-476C-BB17-3981B909C4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82629C7-228C-476C-BB17-3981B909C4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82629C7-228C-476C-BB17-3981B909C4A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85BA368A-5299-4C5E-8CAD-180F393CCFFF}
+	EndGlobalSection
+EndGlobal
