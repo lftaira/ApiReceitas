@@ -1,6 +1,7 @@
 ﻿using Dapper;
 using MasterChef.Domain.Entidades;
 using MasterChef.Domain.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Data.SQLite;
 using System.Linq;
@@ -70,15 +71,13 @@ namespace MasterChef.Infra.Data.Repository
             return receita;
         }
 
-        public bool Inserir(ReceitaDTO receita)
+        public ReceitaDTO Inserir(ReceitaDTO receita)
         {
-            bool result = false;
-
             using (var Connection = new SQLiteConnection(driver))
             {
                 var sql = $"INSERT INTO RECEITAS (TITULO,DESCRICAO,INGREDIENTES,MODODEPREPARO,TAGS,CATEGORIAID)" +
                           $" VALUES " +
-                          $"(@titulo, @descricao, @ingredientes,@mododepreparo,@tags, @categoriaid)";
+                          $"(@titulo, @descricao, @ingredientes,@mododepreparo,@tags, @categoriaid); ";
 
                 var parametros = new DynamicParameters();
                 parametros.Add("titulo", receita.Titulo);
@@ -88,10 +87,11 @@ namespace MasterChef.Infra.Data.Repository
                 parametros.Add("tags", receita.Tags);
                 parametros.Add("categoriaid", receita.Categoria.ID);
 
-                if (Connection.Execute(sql, parametros) > 0)
-                    result = true;
+                sql += $"SELECT LAST_INSERT_ROWID() ID;";
+
+                receita.ID = (Int64)Connection.ExecuteScalar(sql, parametros);
             }
-            return result;
+            return receita;
         }
 
         public bool Atualizar(ReceitaDTO receita)

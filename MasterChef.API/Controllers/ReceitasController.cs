@@ -35,9 +35,9 @@ namespace MasterChef.API.Controllers
         [HttpPost]
         public ActionResult PostReceita(ReceitaDTO receita)
         {
-            bool result = service.Inserir(receita);
-
-            if (result == false)
+            var result = service.Inserir(receita);
+           
+            if (result.ID <= 0)
                 return NoContent();
 
             return Created("GetReceita", receita);

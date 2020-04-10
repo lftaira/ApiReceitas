@@ -35,9 +35,9 @@ namespace MasterChef.API.Controllers
         [HttpPost]
         public ActionResult PostCategoria(CategoriaDTO categoria)
         {
-            bool result = service.Inserir(categoria);
+            var result = service.Inserir(categoria);
 
-            if (result == false)
+            if (result.ID <= 0)
                 return NoContent();
 
             return Created("GetCategoria", categoria);

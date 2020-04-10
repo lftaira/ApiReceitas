@@ -28,7 +28,7 @@ namespace MasterChef.Services
             return repository.ObterTodos(codigo, nome);
         }
 
-        public bool Inserir(ReceitaDTO receita)
+        public ReceitaDTO Inserir(ReceitaDTO receita)
         {
             return repository.Inserir(receita);
         }

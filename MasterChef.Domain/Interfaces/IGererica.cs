@@ -8,7 +8,7 @@ namespace MasterChef.Domain.Interfaces
 
         T Obter(int codigo = 0);
 
-        bool Inserir(T objeto);
+        T Inserir(T objeto);
 
         bool Atualizar(T objeto);
 

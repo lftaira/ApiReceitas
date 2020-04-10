@@ -1,6 +1,7 @@
 ﻿using Dapper;
 using MasterChef.Domain.Entidades;
 using MasterChef.Domain.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Data.SQLite;
 
@@ -45,23 +46,22 @@ namespace MasterChef.Infra.Data.Repository
             return categoria;
         }
 
-        public bool Inserir(CategoriaDTO categoria)
+        public CategoriaDTO Inserir(CategoriaDTO categoria)
         {
-            bool result = false;
-
             using (var Connection = new SQLiteConnection(driver))
             {
                 var sql = $"INSERT INTO CATEGORIAS (TITULO, DESCRICAO) VALUES " +
-                          $"(@titulo, @descricao)";
+                          $"(@titulo, @descricao); ";
 
                 var parametros = new DynamicParameters();
                 parametros.Add("titulo", categoria.Titulo);
                 parametros.Add("descricao", categoria.Descricao);
 
-                if (Connection.Execute(sql, parametros) > 0)
-                    result = true;
+                sql += $"SELECT LAST_INSERT_ROWID() ID;";
+
+                categoria.ID = (Int64)Connection.ExecuteScalar(sql, parametros);
             }
-            return result;
+            return categoria;
         }
 
         public bool Atualizar(CategoriaDTO categoria)

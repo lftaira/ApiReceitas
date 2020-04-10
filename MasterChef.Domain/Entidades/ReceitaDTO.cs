@@ -1,10 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace MasterChef.Domain.Entidades
 {
     public class ReceitaDTO
     {
-        public int ID { get; set; }
+        public Int64 ID { get; set; }
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         public string Titulo { get; set; }
