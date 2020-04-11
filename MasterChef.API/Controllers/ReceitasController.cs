@@ -36,7 +36,7 @@ namespace MasterChef.API.Controllers
         public ActionResult PostReceita(ReceitaDTO receita)
         {
             var result = service.Inserir(receita);
-           
+
             if (result.ID <= 0)
                 return NoContent();
 

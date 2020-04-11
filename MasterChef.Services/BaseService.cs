@@ -6,7 +6,7 @@ namespace MasterChef.Services
 {
     public class BaseService<T> : IService<T>
     {
-         //private readonly BaseRepository<T> repository = new BaseRepository<T>();
+        //private readonly BaseRepository<T> repository = new BaseRepository<T>();
 
         public void Delete(int id)
         {
