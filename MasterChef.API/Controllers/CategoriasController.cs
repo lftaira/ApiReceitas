@@ -46,7 +46,7 @@ namespace MasterChef.API.Controllers
         [HttpPut]
         public ActionResult PutCategoria(CategoriaDTO categoria)
         {
-            bool result = service.Atualizar(categoria);
+            var result = service.Atualizar(categoria);
 
             if (result == false)
                 return NotFound();
