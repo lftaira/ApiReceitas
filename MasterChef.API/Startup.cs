@@ -20,6 +20,12 @@ namespace MasterChef.API
         {
             services.AddControllers();
 
+            services.AddCors(x =>
+            {
+                x.AddPolicy("QualquerNome", builder =>
+                { builder.AllowAnyOrigin(); });
+            });
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc(name: "v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "API Receita", Version = "v1" });
@@ -38,6 +44,8 @@ namespace MasterChef.API
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+
+            app.UseCors("QualquerNome");
 
             app.UseSwagger();
             app.UseSwaggerUI(c =>
