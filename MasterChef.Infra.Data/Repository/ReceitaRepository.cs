@@ -75,7 +75,7 @@ namespace MasterChef.Infra.Data.Repository
         {
             using (var Connection = new SQLiteConnection(driver))
             {
-                var sql = $"INSERT INTO RECEITAS (TITULO,DESCRICAO,INGREDIENTES,MODODEPREPARO,TAGS,CATEGORIAID)" +
+                var sql = $"INSERT INTO RECEITAS (TITULO,DESCRICAO,INGREDIENTES,MODODEPREPARO,IMAGEM,TAGS,CATEGORIAID)" +
                           $" VALUES " +
                           $"(@titulo, @descricao, @ingredientes,@mododepreparo,@tags, @categoriaid); ";
 
@@ -84,6 +84,7 @@ namespace MasterChef.Infra.Data.Repository
                 parametros.Add("descricao", receita.Descricao);
                 parametros.Add("ingredientes", receita.Ingredientes);
                 parametros.Add("mododepreparo", receita.ModoDePreparo);
+                parametros.Add("imagem", receita.Imagem);
                 parametros.Add("tags", receita.Tags);
                 parametros.Add("categoriaid", receita.Categoria.ID);
 
