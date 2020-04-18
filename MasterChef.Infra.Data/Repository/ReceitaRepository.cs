@@ -77,7 +77,7 @@ namespace MasterChef.Infra.Data.Repository
             {
                 var sql = $"INSERT INTO RECEITAS (TITULO,DESCRICAO,INGREDIENTES,MODODEPREPARO,IMAGEM,TAGS,CATEGORIAID)" +
                           $" VALUES " +
-                          $"(@titulo, @descricao, @ingredientes,@mododepreparo,@tags, @categoriaid); ";
+                          $"(@titulo, @descricao, @ingredientes,@mododepreparo,@imagem,@tags, @categoriaid); ";
 
                 var parametros = new DynamicParameters();
                 parametros.Add("titulo", receita.Titulo);
