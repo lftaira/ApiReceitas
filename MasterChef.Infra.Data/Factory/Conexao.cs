@@ -63,14 +63,14 @@ namespace MasterChef.Infra.Data.Factory
             string result = string.Empty;
 
             // D:\TFS\Repos\FCC.Autentica\FCC.Autentica\bin\Debug\netcoreapp2.2\data
-            string path = $"{System.AppDomain.CurrentDomain.BaseDirectory}data";
+            return $"{System.AppDomain.CurrentDomain.BaseDirectory}";
 
-            if (!Directory.Exists(path))
-                Directory.CreateDirectory(path);
+            //if (!Directory.Exists(path))
+            //    Directory.CreateDirectory(path);
 
-            result = path;
+            //result = path;
 
-            return result;
+            //return result;
         }
     }
 }

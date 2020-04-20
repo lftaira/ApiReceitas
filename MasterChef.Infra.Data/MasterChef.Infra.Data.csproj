@@ -13,4 +13,10 @@
     <ProjectReference Include="..\MasterChef.Domain\MasterChef.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="MasterChef.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
